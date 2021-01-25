@@ -217,6 +217,10 @@ For community support and further learning as well as list of policies and right
   - "This article is based on data from a four-year national study of racialization and Indigeneity at Canadian universities. Its main conclusion is that whether one examines representation in terms of numbers of racialized and Indigenous faculty members and their positioning within the system, their earned income as compared to white faculty, their daily life experiences within the university as workplace, or interactions with colleagues and students, the results are more or less the same. Racialized and Indigenous faculty and the disciplines or areas of their expertise are, on the whole, low in numbers and even lower in terms of power, prestige, and influence within the University."
 - [EPOD Resources Related to BLM](https://docs.google.com/document/d/19WTkgOhWXnSVOHcENb-x82pmWX4qAUcJgwdySlnnpjE/edit)
 - [Active Bystanders Resources](http://web.mit.edu/bystanders/strategies/)
+- [Better Allies newsletter](https://betterallies.com/more-content/)
+  - A weekly newsletter 'Better Allies' that sends out 5 actions every Friday that you can take to be a better ally in the workplace.
+- [Native-Land.ca](https://native-land.ca/resources/territory-acknowledgement/)
+  - great resource to learn about the Indigenous peoples with whom we are sharing the land as well as their history.
 - [Resources on Mentoring for Advisees and Mentees](https://www.brown.edu/academics/gradschool/academics-research/graduate-advising-and-mentoring/advising-and-mentoring-resources-students/resourc)
   - Resource provided by Brown University with multiple links for different mentoring guides from varying Universities. Provides guides both for faculty and for students. 
 - [Mentoring Best Practices](https://www.albany.edu/academics/mentoring.best.practices.chapter3.shtml)
