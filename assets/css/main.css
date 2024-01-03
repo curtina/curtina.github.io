@@ -2671,13 +2671,21 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 0 0 3rem 0;
-			width: 100%;
+			width: auto;  /* Use auto to maintain aspect ratio */
+			height: auto; /* Use auto to maintain aspect ratio */
+			max-width: 100%; /* Image can be at most 100% of its container */
+			max-height: 500px; /* Adjust this value based on your needs */
+			display: block; /* Use block to apply margin auto for centering */
+			margin: 0 auto; /* Center the image if smaller than container */
 		}
 
 			.image.main img {
-				width: 100%;
+				width: auto;  /* Use auto to maintain aspect ratio */
+				height: auto; /* Use auto to maintain aspect ratio */
+				max-width: 100%; /* Image can be at most 100% of its container */
+				max-height: 500px; /* Adjust this value based on your needs */
+				display: block; /* Use block to apply margin auto for centering */
+				margin: 0 auto; /* Center the image if smaller than container */
 			}
 
 /* List */
