@@ -1,0 +1,160 @@
+/* Reset and font */
+/* Load Google Font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,700&display=swap');
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 350;
+  color: #222;
+  background: #fff;
+}
+
+
+h1 {
+  font-weight: 350;
+  font-size: 3rem;
+
+}
+h2 {
+  font-weight: 375;
+  line-height: 1.6;
+  font-size: 1.3em;
+}
+p {
+  font-weight: 350;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 40px;
+}
+
+.profile-photo img {
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+h1 {
+  margin: 0 0 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;      /* circle outline */
+  border-radius: 50%;           /* makes it circular */
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.icons a:hover {
+  color: #555; /* or #0072b1 for LinkedIn blue */
+}
+
+.icons svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+}
+
+.accordion {
+  max-width: 1200px;      /* keeps it from stretching too wide */
+  margin: 0 auto;        /* centers it on the page */
+  padding: 0 20px;       /* optional: adds breathing room on small screens */
+}
+
+.accordion-item {
+  border-top: 1px solid #ccc;
+}
+
+.accordion-header {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  padding: 15px 0;
+  cursor: pointer;
+    font-weight: 300;
+}
+
+.accordion-content {
+  display: none;
+  padding: 0 0 15px;
+  color: #444;
+}
+
+.accordion-header.active + .accordion-content {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-photo img {
+    max-width: 100%;
+  }
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;   /* keeps it aligned with your accordion */
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.photo-item {
+  flex: 1 1 350px;   /* minimum width 220px, grows if space allows */
+  max-width: 500px;  /* photos won’t get too big */
+  text-align: center;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.photo-item img:hover {
+  transform: scale(1.03);
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
